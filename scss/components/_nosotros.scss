@@ -1,0 +1,19 @@
+.body-nosotros{
+    background-color: $color-rosa2;
+    display: flex;
+    h1{
+        color: $color-marron;
+        font: {
+            size: 15px;
+            family: $font-title
+        };
+    }
+    p{
+        margin-left: 5px;
+        color: $color-violeta;
+        font:   {
+            size: 10px;
+            family: $font-text;
+        }
+    }
+}

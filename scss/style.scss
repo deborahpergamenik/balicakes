@@ -1,0 +1,15 @@
+@import 'base/colors';
+@import 'base/fonts';
+@import 'components/header';
+@import 'components/logo';
+@import 'components/menu';
+@import 'components/carrousel';
+@import 'components/nosotros';
+@import 'components/contacto';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

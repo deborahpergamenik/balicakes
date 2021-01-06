@@ -1,0 +1,38 @@
+.fixed-encabezado{
+    position: fixed;
+    z-index: 2;
+    top:0;
+    width: 100%;
+}
+
+
+.header-container{
+    background-color: beige;
+    border: 1px solid $color-marron2;
+    color: $color-rosa;
+    font-family: $font-title;
+    font-size: 3%;
+    display: flex;
+    justify-content: space-between;
+
+
+    align-content: space-between;
+
+    h5 {
+       padding: 10px 0 0 10px;
+    }
+
+}
+
+ 
+.facebook-container, .instagram-container {
+    width: 20px;
+    height: 20px;
+    margin: 3px;   
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+
+} 
